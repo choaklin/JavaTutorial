@@ -19,8 +19,13 @@
         <property name="port" value="${redis.port}"/>
     </bean>
 
+    <bean id="stringRedisSerializer" class="org.springframework.data.redis.serializer.StringRedisSerializer"/>
+
     <!-- springframework redis template -->
     <bean id="redisTemplate" class="org.springframework.data.redis.core.RedisTemplate">
         <property name="connectionFactory" ref="jedisConnectionFactory"/>
+        <!-- make key and value avoid to be messy code -->
+        <property name="keySerializer" ref="stringRedisSerializer"/>
+        <property name="valueSerializer" ref="stringRedisSerializer"/>
     </bean>
 </beans>
