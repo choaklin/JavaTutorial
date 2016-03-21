@@ -1,4 +1,9 @@
-*.class
+# local work config file of idea.
+JavaTutorial.iml
+.idea
+
+# compile directory of idea.
+target
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
