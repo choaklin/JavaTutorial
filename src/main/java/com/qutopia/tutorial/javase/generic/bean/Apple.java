@@ -1,4 +1,4 @@
-package javase.generic.bean;
+package com.qutopia.tutorial.javase.generic.bean;
 
 /**
  * something

@@ -1,8 +1,8 @@
-package javase.generic;
+package com.qutopia.tutorial.javase.generic;
 
-import javase.generic.bean.Apple;
-import javase.generic.bean.Fruit;
-import javase.generic.bean.Pear;
+import com.qutopia.tutorial.javase.generic.bean.Apple;
+import com.qutopia.tutorial.javase.generic.bean.Fruit;
+import com.qutopia.tutorial.javase.generic.bean.Pear;
 
 import java.util.ArrayList;
 import java.util.List;

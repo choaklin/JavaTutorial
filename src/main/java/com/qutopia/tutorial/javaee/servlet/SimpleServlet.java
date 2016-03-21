@@ -1,4 +1,4 @@
-package javaee.servlet;
+package com.qutopia.tutorial.javaee.servlet;
 
 import javax.servlet.annotation.WebInitParam;
 import javax.servlet.annotation.WebServlet;

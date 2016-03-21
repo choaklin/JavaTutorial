@@ -1,4 +1,4 @@
-package javase.generic;
+package com.qutopia.tutorial.javase.generic;
 
 import java.util.ArrayList;
 import java.util.Collection;
